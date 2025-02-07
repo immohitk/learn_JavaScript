@@ -22,6 +22,8 @@ for(let i = 0; i < 5; i++){
     console.log(i);
 }
 
+console.log("-------------------------------")
+
 
 
 let sum = 0;
@@ -30,6 +32,8 @@ for(let j=1; j<=5; j++){
 }
 
 console.log("sum = ", sum);
+
+console.log("-------------------------------")
 
 
 // ----------------------------------------------
@@ -44,6 +48,7 @@ while(j < 5){
     j++;
 }
 
+console.log("-------------------------------")
 
 
 let count1 = 1;
@@ -51,6 +56,8 @@ while(count1 <= 10){
     console.log("hey there");
     count1++;
 }
+
+console.log("-------------------------------")
 
 
 // ----------------------------------------------
@@ -68,6 +75,8 @@ do{
 while(k <= 5);
 
 
+console.log("-------------------------------")
+
 
 let count2 = 1;
 do{
@@ -76,6 +85,7 @@ do{
 }
 while(count2 <= 10);
 
+console.log("-------------------------------")
 
 
 // ----------------------------------------------
@@ -92,9 +102,10 @@ let person = {
 };
 
 for(let key in person){
-    console.log(key, person[key]);
+    console.log("key = ", key, ", value = ", person[key]);
 }
 
+console.log("-------------------------------")
 
 
 
@@ -104,6 +115,7 @@ for(let index in fruits){
     console.log(index, fruits[index]);
 }
 
+console.log("-------------------------------")
 
 // ----------------------------------------------
 
@@ -119,6 +131,7 @@ for(let color of colors){
 }
 
 
+console.log("-------------------------------")
 
 
 let numbers = [1, 2, 3, 4, 5];
@@ -126,3 +139,17 @@ let numbers = [1, 2, 3, 4, 5];
 for(let number of numbers){
     console.log(number);
 }
+
+
+console.log("-------------------------------")
+
+
+let str = "JavaScript";
+
+let size = 0;
+for (let i of str){
+    console.log("i = ", i)
+    size++;
+}
+
+console.log("string Size = ", size)
