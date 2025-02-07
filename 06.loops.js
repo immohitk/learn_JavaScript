@@ -18,9 +18,13 @@ for(let i = 0; i < 5; i++){
 }
 
 
-for(let count=1; count<=10; count++){
-    console.log("Hello World");
+
+let sum = 0;
+for(let j=1; j<=5; j++){
+    sum = sum + j;
 }
+
+console.log("sum = ", sum);
 
 
 // ----------------------------------------------
