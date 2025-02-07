@@ -8,10 +8,15 @@
     - do while loop
     - for in loop
     - for of loop
+
+-> Infinite Loop: A loop becomes infinite loop if a condition never becomes false. The block of code inside the loop will keep executing infinitely.
 */
 
 
 // 1. for loop
+
+// The for loop is used when you know in advance how many times the script should run.
+
 
 for(let i = 0; i < 5; i++){
     console.log(i);
@@ -30,6 +35,8 @@ console.log("sum = ", sum);
 // ----------------------------------------------
 
 // 2. while loop
+
+// The while loop loops through a block of code as long as a specified condition is true.
 
 let j = 0;
 while(j < 5){
@@ -50,13 +57,15 @@ while(count1 <= 10){
 
 // 3. do while loop
 
+// The do while loop is similar to the while loop, except that the condition is always executed after the statements inside the loop have been executed.
 
-let k = 0;
+
+let k = 1;
 do{
-    console.log(k);
+    console.log("k = ", k);
     k++;
 }
-while(k < 5);
+while(k <= 5);
 
 
 
@@ -72,6 +81,8 @@ while(count2 <= 10);
 // ----------------------------------------------
 
 // 4. for in loop
+
+// The for in loop is used to loop through an object's properties.
 
 
 let person = {
@@ -97,6 +108,8 @@ for(let index in fruits){
 // ----------------------------------------------
 
 // 5. for of loop
+
+// The for of loop is used to loop through an iterable object (array, string, etc).
 
 
 let colors = ["Red", "Green", "Blue", "Yellow"];
