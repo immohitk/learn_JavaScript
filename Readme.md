@@ -9,6 +9,7 @@
 | 05  |  [Conditional Statements](./05.conditional_statements.js)|
 | 06  |  [Loops](./06.loops.js)|
 | 07  |  [Strings](./07.strings.js)|
+| 08  |  [Arrays](./08.arrays.js)|
 
 ## Introduction
 
