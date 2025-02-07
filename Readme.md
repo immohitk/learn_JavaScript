@@ -7,7 +7,7 @@
 | 03  |  [Data Type](./03.data_type.js)|
 | 04  |  [Operators](./04.operators.js)|
 | 05  |  [Conditional Statements](./05.conditional_statements.js)|
-| 06  |  [Loops](./06.loops.js|
+| 06  |  [Loops](./06.loops.js)|
 
 ## Introduction
 
