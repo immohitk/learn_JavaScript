@@ -8,6 +8,7 @@
 | 04  |  [Operators](./04.operators.js)|
 | 05  |  [Conditional Statements](./05.conditional_statements.js)|
 | 06  |  [Loops](./06.loops.js)|
+| 07  |  [Strings](./07.strings.js)|
 
 ## Introduction
 
