@@ -11,6 +11,8 @@
 | 07  |  [Strings](./07.strings.js)|
 | 08  |  [Arrays](./08.arrays.js)|
 | 09  |  [Functions & Methods](./09.functions&methods.js)|
+| 10  |  [Document Object Method](./10.DOM.js)|
+
 
 ## Introduction
 
