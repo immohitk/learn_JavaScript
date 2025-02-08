@@ -99,3 +99,23 @@ const arrowMulti = (a, b) => {
 
 let result1 = arrowMulti(5, 7);
 console.log(result1); // 35
+
+
+/*
+forEach loop in arrays
+
+arr.forEach(callBackFunction)
+
+- CallbackFunction : Here, it is a function to execute for each element in the array.
+
+**NOTE** -> A callback function passed as an argument to another function, which is then executed inside the other function.
+
+Syntax :- 
+
+        arr.forEach((val) => {
+        
+            console.log(val);
+
+        })
+*/
+
