@@ -10,7 +10,7 @@
 | 06  |  [Loops](./06.loops.js)|
 | 07  |  [Strings](./07.strings.js)|
 | 08  |  [Arrays](./08.arrays.js)|
-| 09  |  [Functions](./09.functions.js)|
+| 09  |  [Functions & Methods](./09.functions&methods.js)|
 
 ## Introduction
 

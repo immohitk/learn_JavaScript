@@ -119,3 +119,103 @@ Syntax :-
         })
 */
 
+ let arr = ["pune", "mumbai", "kolhapur", "satara"];
+
+arr.forEach((val, idx, arr) => {
+    console.log(val.toUpperCase(), idx, arr);
+})
+
+/*
+
+**IMPORTANT NOTE**
+
+-> Higher order function
+
+        - A function that accepts another function as an argument or returns a function as a result is called a higher order function.
+
+        - forEach () is a higher order function because it accepts a callback function as an argument.
+
+*/
+
+// ==================================================
+
+/*
+Some more Array Methods
+
+-> map ()
+        - Creates a new array with the results of some operation. The value its callback returns are used to form new array
+
+        - arr.map(callbackFnx(value, index, array))
+
+
+Syntax -
+
+        let newArr = arr.map((val) => {
+            return val*2
+        })
+
+
+
+-> filter ()
+        - Create a new array of elements that give true for a condition/filter.
+        
+        - Eg : all even elements
+
+Syntax -
+        let newArr = arr.filter((val) => {
+            return val % 2 == 0
+        })
+
+
+
+
+-> Reduce ()
+        - Perform some operation on each element of an array and return a single value.
+
+        - Eg : sum of all elements in an array.
+
+
+*/ 
+
+
+// map()
+
+let arr1 = [1, 2, 3, 4, 5];
+
+let newArr = arr1.map((val) => {
+    return val *2;
+})
+
+console.log(newArr); // [2, 4, 6, 8, 10]
+
+
+// filter()
+
+let arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+let newArr2 = arr2.filter((val) => {
+    return val % 2 == 0;
+})
+
+console.log(newArr2); // [2, 4, 6, 8, 10]
+
+
+// reduce()
+
+let arr3 = [1, 2, 3, 4, 5];
+
+const output = arr3.reduce((result, current) => {
+    return result + current;
+})
+
+console.log(output); // 15
+
+
+
+let arr4 = [1, 2, 3, 4, 5];
+
+const output1 = arr4.reduce((result, current) => {
+    return result > current ? result : current;
+})
+
+console.log(output1); // 5
