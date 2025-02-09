@@ -83,3 +83,17 @@ Checking Properties of an Element :
 
 -> textContent : returns textual content even for hidden elements
 */
+
+
+// Checking Properties of an Element
+
+let headers = document.getElementById("heading");
+
+
+console.log(headers.tagName); // Output: H1
+
+console.log(headers.innerText); // Output: Heading
+
+console.log(headers.innerHTML); // Output: <span>Heading</span>
+
+console.log(headers.textContent); // Output: Heading
