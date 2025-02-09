@@ -1,6 +1,11 @@
-h1 {
+#heading {
     color: blue;
     background-color: yellow;
+}
+
+.heading1 {
+    color: rebeccapurple;
+    background-color: darkorange;
 }
 
 body {
@@ -10,4 +15,8 @@ body {
 button {
     background-color: blue;
     color: white;
+}
+
+#divid {
+    background-color: white;
 }
